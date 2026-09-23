@@ -1,0 +1,12 @@
+# Rust build output
+target/
+
+# Environment / secrets
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# JetBrains
+.idea/
