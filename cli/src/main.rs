@@ -3,7 +3,7 @@ mod session;
 mod supabase;
 
 use anyhow::Result;
-use clap::{Args, Parser, Subcommand, ValueHint::Unknown};
+use clap::{Args, Parser, Subcommand};
 use colored::*;
 use config::Config;
 use session::Session;
